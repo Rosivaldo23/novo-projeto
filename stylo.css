@@ -1,0 +1,53 @@
+html{
+    background-image: url(image3.jpg);
+    font-family: 'Roboto Slab', serif;
+    
+}
+body{
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+
+.card {
+    background-color: #8a8784;
+    box-shadow: 0px 2px 4px #161616bb;
+    border-radius: 4px;
+    float: right;
+    margin: 8px;
+
+}
+
+.card img{
+    width: 100%;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+.card .body{
+    padding: 16px;
+    top: auto;
+}
+.card .body h1, .card .body h3{
+    margin: 0px;
+    font-weight: 500;
+
+    
+    
+
+}
+
+@media screen and (max-width: 700px){
+body{
+    width: 100%;
+   }
+}
+.card{
+    width: calc(100% - 16px)
+    
+}
+@media screen and (max-width: 480px) {
+  .card{
+      width: calc(100% - 16px);
+  }    
+}
+    
